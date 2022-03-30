@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .top) {
             Background()
+                .ignoresSafeArea()
             VStack {
                 Logo()
                 Hero()
@@ -18,7 +19,6 @@ struct ContentView: View {
                     .padding()
             }
         }
-        .ignoresSafeArea()
     }
 }
 
