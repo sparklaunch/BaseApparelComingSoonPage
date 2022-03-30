@@ -11,6 +11,9 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Background()
+            VStack {
+                Logo()
+            }
         }
         .ignoresSafeArea()
     }
