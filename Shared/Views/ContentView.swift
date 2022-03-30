@@ -14,6 +14,8 @@ struct ContentView: View {
             VStack {
                 Logo()
                 Hero()
+                Title()
+                    .padding()
             }
         }
         .ignoresSafeArea()
