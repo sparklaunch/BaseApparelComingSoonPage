@@ -10,17 +10,18 @@ import SwiftUI
 struct EmailForm: View {
     @State private var emailInput: String = ""
     var body: some View {
-        Form {
-            HStack {
-                TextField("wow", text: $emailInput)
-                Button {
+        HStack {
+            TextField("Email Address", text: $emailInput)
+                .textFieldStyle(CustomTextFieldStyle())
+                .foregroundColor(Color("BodyColor"))
+                .keyboardType(.emailAddress)
+            Button {
 
-                } label: {
-                    SubmitButton()
-                }
+            } label: {
+                SubmitButton()
             }
         }
-        .scaledToFit()
+        .padding()
     }
 }
 
@@ -28,5 +29,6 @@ struct EmailForm_Previews: PreviewProvider {
     static var previews: some View {
         EmailForm()
             .previewLayout(.sizeThatFits)
+            .background(Color("BackgroundColor"))
     }
 }
