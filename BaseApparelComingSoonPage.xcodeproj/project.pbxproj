@@ -17,6 +17,8 @@
 		909D672327F523340012E3B9 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D672227F523340012E3B9 /* Logo.swift */; };
 		909D672527F523940012E3B9 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D672427F523940012E3B9 /* Hero.swift */; };
 		909D672727F524010012E3B9 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D672627F524010012E3B9 /* Title.swift */; };
+		909D672927F525AE0012E3B9 /* EmailForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D672827F525AE0012E3B9 /* EmailForm.swift */; };
+		909D672B27F527A50012E3B9 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D672A27F527A50012E3B9 /* SubmitButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		909D672227F523340012E3B9 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 		909D672427F523940012E3B9 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		909D672627F524010012E3B9 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		909D672827F525AE0012E3B9 /* EmailForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailForm.swift; sourceTree = "<group>"; };
+		909D672A27F527A50012E3B9 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 				909D672227F523340012E3B9 /* Logo.swift */,
 				909D672427F523940012E3B9 /* Hero.swift */,
 				909D672627F524010012E3B9 /* Title.swift */,
+				909D672827F525AE0012E3B9 /* EmailForm.swift */,
+				909D672A27F527A50012E3B9 /* SubmitButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,7 +223,9 @@
 				909D670F27F520020012E3B9 /* BaseApparelComingSoonPageApp.swift in Sources */,
 				909D672327F523340012E3B9 /* Logo.swift in Sources */,
 				909D672727F524010012E3B9 /* Title.swift in Sources */,
+				909D672B27F527A50012E3B9 /* SubmitButton.swift in Sources */,
 				909D672127F522420012E3B9 /* Background.swift in Sources */,
+				909D672927F525AE0012E3B9 /* EmailForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

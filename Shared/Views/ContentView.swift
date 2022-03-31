@@ -17,6 +17,7 @@ struct ContentView: View {
                 Hero()
                 Title()
                     .padding()
+                EmailForm()
             }
         }
     }
