@@ -12,11 +12,11 @@ struct SubmitButton: View {
         Image(decorative: "Arrow")
             .resizable()
             .frame(width: 12, height: 20)
-            .padding(EdgeInsets(top: 15, leading: 30, bottom: 15, trailing: 30))
+            .padding(EdgeInsets(top: 18, leading: 30, bottom: 18, trailing: 30))
             .background(
                 LinearGradient(colors: [Color("ButtonLeftGradientColor"), Color("ButtonRightGradientColor")], startPoint: .leading, endPoint: .trailing)
             )
-            .clipShape(Capsule())
+            .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
             .shadow(radius: 10)
     }
 }

@@ -10,15 +10,18 @@ import SwiftUI
 struct EmailForm: View {
     @State private var emailInput: String = ""
     var body: some View {
-        HStack {
+        ZStack {
             TextField("Email Address", text: $emailInput)
                 .textFieldStyle(CustomTextFieldStyle())
                 .foregroundColor(Color("BodyColor"))
                 .keyboardType(.emailAddress)
-            Button {
+            HStack {
+                Spacer()
+                Button {
 
-            } label: {
-                SubmitButton()
+                } label: {
+                    SubmitButton()
+                }
             }
         }
         .padding()
