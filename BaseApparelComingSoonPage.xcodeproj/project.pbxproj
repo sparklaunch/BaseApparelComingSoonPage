@@ -20,6 +20,7 @@
 		909D672927F525AE0012E3B9 /* EmailForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D672827F525AE0012E3B9 /* EmailForm.swift */; };
 		909D672B27F527A50012E3B9 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D672A27F527A50012E3B9 /* SubmitButton.swift */; };
 		909D672D27F5286D0012E3B9 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D672C27F5286D0012E3B9 /* CustomTextFieldStyle.swift */; };
+		909D672F27F6A4C60012E3B9 /* ErrorIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D672E27F6A4C60012E3B9 /* ErrorIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		909D672827F525AE0012E3B9 /* EmailForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailForm.swift; sourceTree = "<group>"; };
 		909D672A27F527A50012E3B9 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
 		909D672C27F5286D0012E3B9 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		909D672E27F6A4C60012E3B9 /* ErrorIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				909D672827F525AE0012E3B9 /* EmailForm.swift */,
 				909D672A27F527A50012E3B9 /* SubmitButton.swift */,
 				909D672C27F5286D0012E3B9 /* CustomTextFieldStyle.swift */,
+				909D672E27F6A4C60012E3B9 /* ErrorIcon.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				909D672527F523940012E3B9 /* Hero.swift in Sources */,
+				909D672F27F6A4C60012E3B9 /* ErrorIcon.swift in Sources */,
 				909D671127F520020012E3B9 /* ContentView.swift in Sources */,
 				909D670F27F520020012E3B9 /* BaseApparelComingSoonPageApp.swift in Sources */,
 				909D672327F523340012E3B9 /* Logo.swift in Sources */,

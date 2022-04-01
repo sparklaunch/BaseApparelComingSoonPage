@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct CustomTextFieldStyle: TextFieldStyle {
+    @Binding var isInvalid: Bool
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration
             .padding()
-            .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Color("BodyColor"), lineWidth: 1))
+            .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).strokeBorder(Color(isInvalid ? "WarningColor" : "BodyColor"), lineWidth: isInvalid ? 3 : 1))
             .background(.white.opacity(.zero))
     }
 }
